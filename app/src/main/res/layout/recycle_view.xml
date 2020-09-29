@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    android:elevation="15dp"
+    android:padding="4dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="7dp"
+    android:layout_marginLeft="3dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:id="@+id/second_view"
+        android:orientation="vertical"
+
+        >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/image_second_view"
+        android:src="@drawable/phototwo"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_second_view"
+        android:id="@+id/name_second_view"
+        android:layout_margin="10dp"
+        android:text="LIFE PARK EL SHROUK"
+        android:textColor="#000"
+        android:textSize="22sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/name_second_view"
+        android:layout_below="@+id/image_second_view"
+        android:text="Azad"
+        android:layout_margin="5dp"
+        android:textSize="16sp"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <RatingBar
+
+        android:id="@+id/ratingBar_second_view"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_second_view"
+        android:layout_marginLeft="10dp"
+        android:numStars="5"
+        android:rating="3"
+        android:stepSize="1"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/price_second_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:gravity="end"
+            android:text="1.200.000"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EYG"
+            android:textColor="#000"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/price_second_view"
+        android:id="@+id/installments_second_view"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:text="2 YEARS"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/installments_second_view"
+        android:layout_below="@+id/ratingBar_second_view"
+        android:layout_marginLeft="5dp"
+        android:text="installments"
+        android:textSize="15sp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price_second_view"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        >
+
+        <ImageView
+            android:id="@+id/like_second_view"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/like" />
+
+        <ImageView
+            android:id="@+id/share_second"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/share" />
+
+    </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

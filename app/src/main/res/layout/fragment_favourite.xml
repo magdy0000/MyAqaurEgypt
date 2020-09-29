@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.inventure.myaquaregypt.Fragments.FavouriteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/fragment_favouriteEmpty_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/fragment_favouriteEmpty_TV"
+        android:textColor="@color/Red"
+        android:visibility="gone"
+        android:textStyle="italic"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_favouriteRV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout><!--<ListView--><!--android:id="@+id/favouriteList"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent">-->
+
+    <!--</ListView>-->

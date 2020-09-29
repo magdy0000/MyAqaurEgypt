@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MyAquar Egypt</string>
+
+    <string name="facebookID">1081011595442624</string>
+    <string name="fb_login_protocol_scheme">fb1081011595442624</string>
+
+    <string name="some_description">Nowhere else in Egypt can you find a setting quite like this: a Quiet, serene, purely residential community with lush natural landscapes, beautiful greenery and life-giving water all around, and a stimulating cosmopolitan center nearby</string>
+    <string name="about_text">Nowhere else in Egypt can you find a setting quite like this: a Quiet, serene, purely residential community with lush natural landscapes, beautiful greenery and life-giving water all around, and a stimulating cosmopolitan center nearby</string>
+    <string name="Terms_policies">Nowhere else in Egypt can you find a setting quite like this: a Quiet, serene, purely residential community with lush natural landscapes, beautiful greenery and life-giving water all around, and a stimulating cosmopolitan center nearby</string>
+    <string name="more_description">With nothing separating you from nature but floor-to-ceiling glass walls, you can either retreat into your peaceful surroundings or venture a few steps beyond and engage with the all the excitement surrounding you.</string>
+    <string name="more_descriptions">With nothing separating you from nature but floor-to-ceiling glass walls, you can either retreat into your peaceful surroundings or venture a few steps beyond and engage with the all the excitement surrounding you.
+    Nowhere else in Egypt can you find a setting quite like this: a Quiet, serene, purely residential community with lush natural landscapes, beautiful greenery and life-giving water all around, and a stimulating cosmopolitan center nearby
+    Nowhere else in Egypt can you find a setting quite like this: a Quiet, serene, purely residential community with lush natural landscapes, beautiful greenery and life-giving water all around, and a stimulating cosmopolitan center nearby
+    Nowhere else in Egypt can you find a setting quite like this: a Quiet, serene, purely residential community with lush natural landscapes, beautiful greenery and life-giving water all around, and a stimulating cosmopolitan center nearby
+    Nowhere else in Egypt can you find a setting quite like this: a Quiet, serene, purely residential community with lush natural landscapes, beautiful greenery and life-giving water all around, and a stimulating cosmopolitan center nearby</string>
+    <string name="title_activity_navigatio">navigatio</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="line">________________________</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_favouriteEmpty_TV">Please Sign In First</string>
+    <!--String Lines="&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;";-->
+    <!--String Content = "Full Name : " + userPOJO.getUsername()-->
+    <!--+ "\n" + "Mobile Phone : " + userPOJO.getPhone() + "\n" + "Job Title: " + userPOJO.getJobTitle();-->
+    <!--String Body=Lines+"\n"+"\n"+Content+"\n"+"\n"+Lines;-->
+    <string name="Lines">--------------------------------</string>
+    <string name="fcm_message">message</string>
+    <string name="default_notification_channel_id">MyAquar</string>
+    <!--<string name="Body"></string>-->
+
+
+</resources>

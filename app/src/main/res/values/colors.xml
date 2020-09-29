@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#AD0000</color>
+    <color name="colorPrimaryDark">#AD0000</color>
+    <color name="colorAccent">#AD0000</color>
+    <color name="Red">#AD0000</color>
+    <color name="White">#2E3032</color>
+    <color name="HomeBottomColorClicked">#FF0000</color>
+    <color name="HomeBottomColorUnClicked">#666666</color>
+</resources>

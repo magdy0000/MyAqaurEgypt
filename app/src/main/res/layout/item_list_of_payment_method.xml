@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:text="Down Payment"
+           android:paddingTop="5dp"
+            android:textSize="16sp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/Percentage"
+            android:layout_width="0dp"
+            android:text="madksmasmkd"
+            android:paddingTop="5dp"
+            android:textSize="16sp"
+            android:gravity="right"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:text="Installments"
+            android:textSize="16sp"
+            android:paddingBottom="5dp"
+            android:gravity=""
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+        />
+        <TextView
+            android:layout_width="0dp"
+            android:text="madksmasmkd"
+            android:textSize="16sp"
+            android:id="@+id/years"
+            android:gravity="right"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:background="#c7c7c7" />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/parentOfAboutUs"
+    android:visibility="gone"
+    android:layout_height="match_parent"
+    tools:context="com.inventure.myaquaregypt.Activity.AboutUsActivity">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="About us"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/name_of_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:text="MyAquar Egypt"
+        android:textSize="17sp"
+
+        android:textColor="@color/Red"
+        />
+<TextView
+        android:id="@+id/about_us_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="20dp"
+       android:lineSpacingMultiplier="1.2"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+
+
+
+</LinearLayout>
+</ScrollView>

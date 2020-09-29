@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1031035717060",
+    "firebase_url": "https://e-cafe-117e9.firebaseio.com",
+    "project_id": "e-cafe-117e9",
+    "storage_bucket": "e-cafe-117e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031035717060:android:cc875ad3b6168c07",
+        "android_client_info": {
+          "package_name": "com.example.maggy.e_cafa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031035717060-6a0p2spqonctgdtdviukqm5f302turc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0H8BJgnTWexZ3adbudyoX0YNq4FC4Qwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031035717060-6a0p2spqonctgdtdviukqm5f302turc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031035717060:android:531d2871ccfdc108d05091",
+        "android_client_info": {
+          "package_name": "com.inventure.myaquaregypt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031035717060-6a0p2spqonctgdtdviukqm5f302turc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0H8BJgnTWexZ3adbudyoX0YNq4FC4Qwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031035717060-6a0p2spqonctgdtdviukqm5f302turc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

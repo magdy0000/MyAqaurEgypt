@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:visibility="gone"
+    android:id="@+id/parent_of_projects_type"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/units_detailsImg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/units_detailsDes_label_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
+            android:text="Description :"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/units_detailsDes_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center" />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="5dp"
+            android:background="#c7c7c7" />
+        <Button
+            android:id="@+id/units_location_BTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableEnd="@mipmap/ic_arrow"
+            android:drawableStart="@drawable/location"
+            android:gravity="start|center"
+            android:padding="5dp"
+            android:text="   View On map"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/units_line1_label_TV"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="7dp"
+            android:background="#c7c7c7" />
+
+
+
+
+        <Button
+
+            android:id="@+id/go_youtube"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableEnd="@mipmap/ic_arrow"
+            android:drawableStart="@drawable/youtube_icon"
+            android:gravity="start|center"
+            android:padding="5dp"
+            android:text="  YouTube"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/units_line2_label_TV"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="5dp"
+            android:background="#c7c7c7" />
+
+        <TextView
+            android:id="@+id/units_label_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="5dp"
+            android:text="Units :"
+            android:textColor="@color/colorAccent" />
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/arrow_of_exband_list"
+        android:layout_width="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="14dp"
+        android:src="@drawable/group_ind" />
+        <ExpandableListView
+            android:id="@+id/types_ExpandableList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:groupIndicator="@null"
+
+
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp" />
+</RelativeLayout>
+    </LinearLayout>
+</ScrollView>
